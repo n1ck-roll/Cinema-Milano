@@ -1,0 +1,2990 @@
+{
+  "_comment": "Edit this file every Monday. Push to GitHub. Netlify auto-deploys.",
+  "updated": "2026-05-04",
+  "tmdbKey": "d0a9b280dc7fdb758d5737874e7d1da9",
+  "cinemas": [
+    {
+      "id": "anteo",
+      "name": "Anteo Palazzo del Cinema",
+      "area": "Brera / Garibaldi",
+      "address": "Piazza XXV Aprile 8",
+      "bookingUrl": "https://anteo.spaziocinema.18tickets.it/"
+    },
+    {
+      "id": "ariosto",
+      "name": "Ariosto spazioCinema",
+      "area": "Brera / Garibaldi",
+      "address": "Via Ariosto 16",
+      "bookingUrl": "https://ariosto.spaziocinema.18tickets.it/"
+    },
+    {
+      "id": "centrale",
+      "name": "Centrale",
+      "area": "Centro / Duomo",
+      "address": "Via Torino 30",
+      "bookingUrl": "https://www.webtic.it/local/5447/acquisto-biglietti-milano-milano-centrale"
+    },
+    {
+      "id": "arlecchino",
+      "name": "Cineteca Arlecchino",
+      "area": "Centro / Duomo",
+      "address": "Via S. Pietro all'Orto 9",
+      "bookingUrl": "https://arlecchino.cinetecadimilano.18tickets.it/"
+    },
+    {
+      "id": "mic",
+      "name": "Cineteca Milano MIC",
+      "area": "Centro / Duomo",
+      "address": "Viale Fulvio Testi 121",
+      "bookingUrl": "https://cinetecadimilano.18tickets.it/"
+    },
+    {
+      "id": "arcobaleno",
+      "name": "Arcobaleno Filmcenter",
+      "area": "Centro / Duomo",
+      "address": "Viale Tunisia 11",
+      "bookingUrl": "https://www.arcobaleno.org"
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "area": "Navigli / Porta Genova",
+      "address": "Via Savona 57",
+      "bookingUrl": "http://www.cinemamexico.it"
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria Notorious Cinemas",
+      "area": "Navigli / Porta Genova",
+      "address": "Corso Vercelli 18",
+      "bookingUrl": "https://www.notoriouscinemas.it/gloria/programmazione.php"
+    },
+    {
+      "id": "colosseo",
+      "name": "Colosseo",
+      "area": "Porta Venezia / Citta Studi",
+      "address": "Viale Monte Nero 84",
+      "bookingUrl": "https://www.webtic.it/local/5445/acquisto-biglietti-milano-milano-colosseo"
+    },
+    {
+      "id": "plinius",
+      "name": "Plinius Multisala",
+      "area": "Porta Venezia / Citta Studi",
+      "address": "Viale Abruzzi 28",
+      "bookingUrl": "https://www.webtic.it/local/5444/acquisto-biglietti-milano-milano-plinius-multisala"
+    },
+    {
+      "id": "palestrina",
+      "name": "Palestrina",
+      "area": "Porta Venezia / Citta Studi",
+      "address": "Via Palestrina 7",
+      "bookingUrl": "https://www.webtic.it/local/5443/acquisto-biglietti-milano-milano-palestrina"
+    },
+    {
+      "id": "bicocca",
+      "name": "Uci Cinemas Bicocca",
+      "area": "Bicocca / Bovisa",
+      "address": "Viale Sarca 336",
+      "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-bicocca-milano"
+    },
+    {
+      "id": "cinelandia",
+      "name": "Cinelandia Milano Certosa",
+      "area": "Bicocca / Bovisa",
+      "address": "Via Stephenson 29",
+      "bookingUrl": "https://www.cinelandia.it/acquisto-biglietti"
+    },
+    {
+      "id": "citylife",
+      "name": "CityLife Anteo",
+      "area": "CityLife / Fiera",
+      "address": "Piazza Tre Torri 1",
+      "bookingUrl": "https://citylife.spaziocinema.18tickets.it/"
+    },
+    {
+      "id": "merlata",
+      "name": "Notorious Cinemas Merlata",
+      "area": "CityLife / Fiera",
+      "address": "Via Colleoni, Arese",
+      "bookingUrl": "https://www.notoriouscinemas.it/merlata/programmazione.php"
+    },
+    {
+      "id": "beltrade",
+      "name": "Beltrade",
+      "area": "Ovest / Corsico",
+      "address": "Via Oxilio 10",
+      "bookingUrl": "http://www.beltrade.it"
+    },
+    {
+      "id": "orfeo",
+      "name": "Orfeo Multisala",
+      "area": "Ovest / Corsico",
+      "address": "Via Valsesia 4",
+      "bookingUrl": "https://www.webtic.it/local/5448/acquisto-biglietti-milano-milano-orfeo-multisala"
+    },
+    {
+      "id": "ducale",
+      "name": "Ducale Multisala",
+      "area": "Ovest / Corsico",
+      "address": "Piazza Napoli 27",
+      "bookingUrl": "https://www.webtic.it/local/5449/acquisto-biglietti-milano-milano-ducale-multisala"
+    },
+    {
+      "id": "eliseo",
+      "name": "Eliseo",
+      "area": "Est / Lambrate",
+      "address": "Via Torino 64",
+      "bookingUrl": "https://www.webtic.it/local/5450/acquisto-biglietti-milano-milano-eliseo"
+    },
+    {
+      "id": "cinemino",
+      "name": "Il Cinemino",
+      "area": "Est / Lambrate",
+      "address": "Via Senofonte 10",
+      "bookingUrl": "https://www.ilcinemino.it"
+    },
+    {
+      "id": "asteria",
+      "name": "Auditorium Asteria",
+      "area": "Altre zone",
+      "address": "Via Ciro Menotti 11",
+      "bookingUrl": "https://www.centroasteria.it/cinema/"
+    },
+    {
+      "id": "gregorianum",
+      "name": "Gregorianum",
+      "area": "Altre zone",
+      "address": "Via Lanzone 29",
+      "bookingUrl": "https://www.centrogregorianum.it"
+    },
+    {
+      "id": "osoppo",
+      "name": "Osoppo",
+      "area": "Altre zone",
+      "address": "Via Osoppo 10",
+      "bookingUrl": "https://www.webtic.it/local/5538/acquisto-biglietti-milano-milano-osoppo"
+    }
+  ],
+  "films": [
+    {
+      "id": "michael",
+      "title": "Michael",
+      "genre": "Biografico",
+      "dur": 127,
+      "dir": "Antoine Fuqua",
+      "cast": "Jaafar Jackson, Nia Long, Laura Harrier",
+      "synopsis": "La storia di Michael Jackson dall'infanzia prodigiosa fino all'ascesa come icona globale della musica pop.",
+      "emoji": "🎖",
+      "tmdbId": 936075,
+      "poster": null
+    },
+    {
+      "id": "thedrama",
+      "title": "The Drama",
+      "genre": "Commedia",
+      "dur": 106,
+      "dir": "Kristoffer Borgli",
+      "cast": "Robert Pattinson, Zendaya, Alana Haim",
+      "synopsis": "Pochi giorni prima delle nozze una coppia e scossa da rivelazioni sconvolgenti. Una commedia surreale.",
+      "emoji": "🎭",
+      "tmdbId": 1325734,
+      "poster": null
+    },
+    {
+      "id": "mario",
+      "title": "Super Mario Galaxy - Il Film",
+      "genre": "Animazione",
+      "dur": 98,
+      "dir": "Aaron Horvath",
+      "cast": "Chris Pratt, Anya Taylor-Joy, Jack Black",
+      "synopsis": "Mario e Luigi devono salvare la Principessa Rosalina rapita da Bowser Jr. che vuole distruggere interi pianeti.",
+      "emoji": "✨",
+      "tmdbId": 1226863,
+      "poster": null
+    },
+    {
+      "id": "lapiccola",
+      "title": "La Piu Piccola",
+      "genre": "Drammatico",
+      "dur": 106,
+      "dir": "Hafsia Herzi",
+      "cast": "Nadia Melliti, Park Ji-min, Amina Ben Mohamed",
+      "synopsis": "Fatima ama il calcio, le donne e Dio. Tra banlieue e fede, cerca se stessa affrontando contraddizioni.",
+      "emoji": "🎬",
+      "tmdbId": 961077,
+      "poster": null
+    },
+    {
+      "id": "hamnet",
+      "title": "Hamnet",
+      "genre": "Drammatico",
+      "dur": 125,
+      "dir": "Chloé Zhao",
+      "cast": "Paul Mescal, Jessie Buckley, Emily Watson",
+      "synopsis": "La moglie di Shakespeare affronta la morte del figlio Hamnet, ispirazione per la nascita di Amleto.",
+      "emoji": "🎬",
+      "tmdbId": 858024,
+      "poster": null
+    },
+    {
+      "id": "prettywoman",
+      "title": "Pretty Woman",
+      "genre": "Commedia",
+      "dur": 117,
+      "dir": "Garry Marshall",
+      "cast": "Julia Roberts, Richard Gere, Hector Elizondo",
+      "synopsis": "Un ricco imprenditore e una prostituta. Una storia d'amore che sfida le convenzioni. Riedizione 2026.",
+      "emoji": "💝",
+      "tmdbId": 114,
+      "poster": null
+    },
+    {
+      "id": "marty",
+      "title": "Marty Supreme",
+      "genre": "Biografico",
+      "dur": 149,
+      "dir": "Josh Safdie",
+      "cast": "Timothée Chalamet, Gwyneth Paltrow, Odessa A'zion",
+      "synopsis": "New York anni 50: Marty Mauser, pongista di genio, e pronto a tutto per diventare campione mondiale.",
+      "emoji": "🎖",
+      "tmdbId": 1317288,
+      "poster": null
+    },
+    {
+      "id": "aquile",
+      "title": "Le Aquile della Repubblica",
+      "genre": "Thriller",
+      "dur": 120,
+      "dir": "Tarik Saleh",
+      "cast": "Fares Fares, Lyna Khoudri, Zineb Triki",
+      "synopsis": "La star del cinema egiziano viene ricattata per interpretare il Presidente al-Sisi in un film di regime.",
+      "emoji": "🔍",
+      "tmdbId": 1220566,
+      "poster": null
+    },
+    {
+      "id": "mummia",
+      "title": "Lee Cronin - La Mummia",
+      "genre": "Horror",
+      "dur": 102,
+      "dir": "Lee Cronin",
+      "cast": "Tom Hardy, Sofia Boutella, Russell Crowe",
+      "synopsis": "Una mummia risvegliata scatena il caos portando con se i segreti di un oscuro passato millenario.",
+      "emoji": "👻",
+      "tmdbId": 1304313,
+      "poster": null
+    },
+    {
+      "id": "figlio",
+      "title": "Il Figlio del Deserto",
+      "genre": "Avventura",
+      "dur": 95,
+      "dir": "Eric Besnard",
+      "cast": "Kev Adams, Neige de Maistre, Nahel Tran",
+      "synopsis": "Un bambino nomade attraversa il deserto del Sahara in un viaggio di formazione e scoperta.",
+      "emoji": "🌍",
+      "tmdbId": 1266800,
+      "poster": null
+    },
+    {
+      "id": "cane",
+      "title": "Un Cane a Processo",
+      "genre": "Commedia",
+      "dur": 98,
+      "dir": "Laure de Clermont",
+      "cast": "Laetitia Dosch, Francois Damiens, Anabela Moreira",
+      "synopsis": "Un cane accusato di omicidio in tribunale. Una commedia surreale sui diritti degli animali.",
+      "emoji": "🎭",
+      "tmdbId": 1056648,
+      "poster": null
+    },
+    {
+      "id": "nessuno",
+      "title": "Mr. Nobody Against Putin",
+      "genre": "Documentario",
+      "dur": 110,
+      "dir": "Marek Rozenbaum",
+      "cast": "Pavel Talankin e gli studenti di Karabash",
+      "synopsis": "Un insegnante russo filma di nascosto la trasformazione della sua scuola in centro di reclutamento bellico.",
+      "emoji": "📽",
+      "tmdbId": 1393151,
+      "poster": null
+    }
+  ],
+  "showtimes": [
+    {
+      "c": "anteo",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "michael",
+      "days": [
+        0,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "michael",
+      "days": [
+        5
+      ],
+      "t": [
+        "17:30",
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "11:00",
+        "14:00",
+        "17:00",
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "11:30",
+        "14:30",
+        "17:30",
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "12:00",
+        "15:00",
+        "18:00",
+        "21:00",
+        "23:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "13:00",
+        "16:00",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "osoppo",
+      "f": "michael",
+      "days": [
+        5,
+        6,
+        0
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:30",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "michael",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "michael",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "thedrama",
+      "days": [
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "thedrama",
+      "days": [
+        1,
+        5
+      ],
+      "t": [
+        "18:00",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "thedrama",
+      "days": [
+        0,
+        6
+      ],
+      "t": [
+        "15:30",
+        "18:00",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "thedrama",
+      "days": [
+        1,
+        3,
+        5
+      ],
+      "t": [
+        "21:15"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "colosseo",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30",
+        "21:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "osoppo",
+      "f": "thedrama",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "osoppo",
+      "f": "thedrama",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "11:00",
+        "13:30",
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:00",
+        "12:00",
+        "14:30",
+        "17:00",
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "15:30",
+        "18:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinelandia",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinelandia",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:00",
+        "12:30",
+        "15:00",
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "15:00",
+        "17:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "11:00",
+        "13:30",
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:00",
+        "12:30",
+        "15:00",
+        "17:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:00",
+        "12:30",
+        "15:00",
+        "17:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "mario",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "mario",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "17:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "17:00",
+        "20:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "hamnet",
+      "days": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "arlecchino",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:00",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mexico",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "mexico",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "21:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:00",
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "citylife",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:00",
+        "17:00",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "asteria",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "asteria",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "hamnet",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "hamnet",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:00",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "hamnet",
+      "days": [
+        2,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "lapiccola",
+      "days": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "t": [
+        "18:30"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "anteo",
+      "f": "lapiccola",
+      "days": [
+        1,
+        3,
+        5
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mexico",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "mexico",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "mic",
+      "f": "lapiccola",
+      "days": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "t": [
+        "19:00",
+        "21:15"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:30",
+        "21:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "asteria",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "asteria",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:00",
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "lapiccola",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "lapiccola",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:00",
+        "17:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gloria",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gloria",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "17:30",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "13:00",
+        "16:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "13:30",
+        "17:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "18:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "marty",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "marty",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "12:30",
+        "16:00",
+        "19:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ducale",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mexico",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "mexico",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "19:30",
+        "22:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "aquile",
+      "days": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "t": [
+        "19:00",
+        "21:30"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "cinelandia",
+      "f": "aquile",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinelandia",
+      "f": "aquile",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "centrale",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arcobaleno",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "19:00",
+        "21:00",
+        "23:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00",
+        "23:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinelandia",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinelandia",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:15",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "citylife",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "15:00",
+        "17:30",
+        "20:00",
+        "22:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00",
+        "21:30",
+        "23:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "20:00",
+        "22:15"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "19:00",
+        "21:00",
+        "23:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "mummia",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30",
+        "22:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "colosseo",
+      "f": "mummia",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "figlio",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "figlio",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "figlio",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "bicocca",
+      "f": "figlio",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "figlio",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "16:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "eliseo",
+      "f": "figlio",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "13:00",
+        "15:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "figlio",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "17:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "figlio",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "prettywoman",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "ariosto",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:15",
+        "21:45"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gloria",
+      "f": "prettywoman",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gloria",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "prettywoman",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "plinius",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "prettywoman",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "orfeo",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "prettywoman",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "merlata",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "14:30",
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "prettywoman",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "19:30",
+        "21:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "gregorianum",
+      "f": "prettywoman",
+      "days": [
+        2,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mexico",
+      "f": "cane",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mexico",
+      "f": "cane",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:00",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mic",
+      "f": "cane",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mic",
+      "f": "cane",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "beltrade",
+      "f": "cane",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "beltrade",
+      "f": "cane",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "cane",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "cane",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "cane",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "palestrina",
+      "f": "cane",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "nessuno",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "t": [
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "nessuno",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "nessuno",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "arlecchino",
+      "f": "nessuno",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "16:30",
+        "19:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mic",
+      "f": "nessuno",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "mic",
+      "f": "nessuno",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "18:00",
+        "20:30"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "asteria",
+      "f": "nessuno",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "asteria",
+      "f": "nessuno",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "19:00",
+        "21:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "nessuno",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "t": [
+        "20:00"
+      ],
+      "lang": "it"
+    },
+    {
+      "c": "cinemino",
+      "f": "nessuno",
+      "days": [
+        0,
+        5,
+        6
+      ],
+      "t": [
+        "17:30",
+        "20:00"
+      ],
+      "lang": "it"
+    }
+  ]
+}
