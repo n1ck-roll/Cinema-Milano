@@ -254,7 +254,7 @@
       "cast": "Massimo Ghini, Isabella Ferrari, Giuliana De Sio",
       "synopsis": "Una storia di caduta e rinascita, dove il ritorno alle origini e l'incontro con un amore passato si intrecciano con la riscoperta di sé.",
       "emoji": "💃",
-      "tmdbId": 1419830,
+      "tmdbId": null,
       "poster": null
     },
     {
@@ -278,7 +278,7 @@
       "cast": "Benjamin Voisin, Rebecca Marder",
       "synopsis": "Algeri, 1938. Meursault vive apaticamente finché un delitto commesso su una spiaggia sconvolge la sua esistenza.",
       "emoji": "🎬",
-      "tmdbId": null,
+      "tmdbId": 1429348,
       "poster": null
     },
     {
@@ -290,7 +290,7 @@
       "cast": "Léa Drucker, Jonathan Turnbull",
       "synopsis": "Guillaume viene colpito da un poliziotto a una protesta. L'agente Stéphanie indaga sfidando colleghi e sistema.",
       "emoji": "🔍",
-      "tmdbId": null,
+      "tmdbId": 1294698,
       "poster": null
     },
     {
@@ -302,7 +302,7 @@
       "cast": "Özgü Namal, Tansu Biçer",
       "synopsis": "La vita di una coppia di artisti viene sconvolta da un evento legato a una prima teatrale.",
       "emoji": "✉️",
-      "tmdbId": null,
+      "tmdbId": 1315657,
       "poster": null
     },
     {
@@ -338,7 +338,7 @@
       "cast": "Théodore Pellerin, Jeanne Balibar",
       "synopsis": "Prima di affrontare la sfida più dura della sua vita, Nino girovaga per Parigi affrontando questioni irrisolte.",
       "emoji": "🎬",
-      "tmdbId": null,
+      "tmdbId": 1313229,
       "poster": null
     },
     {
@@ -350,7 +350,7 @@
       "cast": "Mario Casas, Alberto San Juan",
       "synopsis": "1939, due settimane dopo la guerra civile spagnola. Franco ordina una cena all'Hotel Palace, ma l'hotel è un ospedale da campo.",
       "emoji": "🍽",
-      "tmdbId": null,
+      "tmdbId": 1433680,
       "poster": null
     },
     {
@@ -422,7 +422,7 @@
       "cast": "Toni Servillo, Anna Ferzetti",
       "synopsis": "Ritratto immaginario di un Presidente della Repubblica alla fine del mandato, tra dilemmi morali e vita privata.",
       "emoji": "🎭",
-      "tmdbId": null,
+      "tmdbId": 1397364,
       "poster": null
     },
     {
@@ -434,7 +434,7 @@
       "cast": "Fabrizio Gifuni, Romana Maggiora Vergano",
       "synopsis": "Un padre e sua figlia. Gli anni di piombo e la generazione scomparsa. Film autobiografico.",
       "emoji": "⏳",
-      "tmdbId": null,
+      "tmdbId": 1103750,
       "poster": null
     },
     {
@@ -446,7 +446,7 @@
       "cast": "Will Arnett, Laura Dern, Bradley Cooper",
       "synopsis": "Alex affronta la mezza età e il divorzio cercando un nuovo scopo nella scena comica di New York.",
       "emoji": "😂",
-      "tmdbId": null,
+      "tmdbId": 1140498,
       "poster": null
     },
     {
@@ -458,7 +458,7 @@
       "cast": "Aleksandr Kuznetsov, Anatoliy Belyy",
       "synopsis": "Un giovane procuratore cerca di fare il suo dovere nell'Unione Sovietica stalinista.",
       "emoji": "⚖️",
-      "tmdbId": null,
+      "tmdbId": 1257406,
       "poster": null
     },
     {
@@ -519,6 +519,30 @@
       "synopsis": "Una semplice riunione di condominio a Madrid per la sostituzione dell'ascensore diventa una satira sociale.",
       "emoji": "🏢",
       "tmdbId": null,
+      "poster": null
+    },
+    {
+      "id": "eyeswide",
+      "title": "Eyes Wide Shut",
+      "genre": "Drammatico",
+      "dur": 160,
+      "dir": "Stanley Kubrick",
+      "cast": "Nicole Kidman, Tom Cruise",
+      "synopsis": "Due coniugi dell'alta borghesia entrano in un tunnel di sogni ed erotismo. Riedizione 2026.",
+      "emoji": "👁",
+      "tmdbId": 601,
+      "poster": null
+    },
+    {
+      "id": "suicide",
+      "title": "Suicide Club",
+      "genre": "Horror",
+      "dur": 99,
+      "dir": "Sion Sono",
+      "cast": "Ryo Ishibashi, Masatoshi Nagase",
+      "synopsis": "54 ragazze si suicidano sotto un treno. Tokyo è sconvolta da misteriosi suicidi di massa.",
+      "emoji": "🩸",
+      "tmdbId": 9325,
       "poster": null
     }
   ],
@@ -2305,6 +2329,78 @@
         "15:30"
       ],
       "lang": "it"
+    },
+    {
+      "c": "anteo",
+      "f": "eyeswide",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "t": [
+        "10:30",
+        "16:00",
+        "21:30"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "beltrade",
+      "f": "eyeswide",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "t": [
+        "18:50"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "citylife",
+      "f": "eyeswide",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "t": [
+        "11:30",
+        "21:00"
+      ],
+      "lang": "ov"
+    },
+    {
+      "c": "anteo",
+      "f": "suicide",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "t": [
+        "21:40",
+        "21:50"
+      ],
+      "lang": "ov"
     }
   ]
 }
