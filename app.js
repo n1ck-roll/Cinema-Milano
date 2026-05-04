@@ -11,7 +11,7 @@ var posterCache = {}, ratingCache = {};
 var TMDB_KEY = '';
 
 // State — initialised after data.json loads
-var S={range:'today', area:'Tutte', genres:new Set(), tab:'film', q:'', ov:false, stasera:false};
+var S={range:'today', area:'Tutte', genres:new Set(), tab:'film', q:'', ov:false, stasera:false, day:0, cinema:'Tutti'};
 var AREA_ORDER=['Centro / Duomo','Brera / Garibaldi','Navigli / Porta Genova',
   'Porta Venezia / Citta Studi','CityLife / Fiera','Ovest / Corsico',
   'Est / Lambrate','Bicocca / Bovisa','Altre zone'];
@@ -85,6 +85,24 @@ function buildFilters(){
   });
   var gr=document.getElementById('gReset');
   if(gr) gr.addEventListener('click',function(){S.genres.clear();buildFilters();render();});
+
+  // Cinema selector
+  var cinemaEl=document.getElementById('cinemaSelect');
+  if(cinemaEl){
+    var allCinemas=[{id:'Tutti',name:'Tutti i cinema'}].concat(
+      CINEMAS.slice().sort(function(a,b){return a.name.localeCompare(b.name);})
+    );
+    cinemaEl.innerHTML=allCinemas.map(function(c){
+      var sel=S.cinema===c.id?' selected':'';
+      return '<option value="'+c.id+'"'+sel+'>'+c.name+'</option>';
+    }).join('');
+    cinemaEl.addEventListener('change',function(){
+      S.cinema=this.value;
+      // Reset zona when cinema selected
+      if(S.cinema!=='Tutti'){S.area='Tutte';buildFilters();}
+      render();
+    });
+  }
 }
 
 function buildDayStrip(){
@@ -162,6 +180,7 @@ function getFiltered(){
     if(!offs.includes(r.off)) return false;
     if(S.ov&&r.lang!=='ov') return false;
     if(tonightOnly&&!r.times.some(function(t){return parseInt(t.split(':')[0])>=19;})) return false;
+    if(S.cinema&&S.cinema!=='Tutti'&&r.cinemaId!==S.cinema) return false;
     if(S.area!=='Tutte'&&r.area!==S.area) return false;
     if(S.genres.size&&!S.genres.has(r.genre)) return false;
     if(S.q){
@@ -230,7 +249,16 @@ function renderFilmGrid(filmIndex,el){
     return null; // all past
   }
 
-  // Sort: when stasera active sort by earliest evening time, else alphabetical
+  // Popularity order (mymovies box office rank, lower = more popular)
+  var POPULARITY={
+    'prada2':1,'michael':2,'eyeswide':3,'thedrama':4,'mario':5,
+    'slime':6,'spacejam':7,'tepore':8,'mummia':9,'straniero':10,
+    'caso137':11,'yellow':12,'figlio':13,'hailmary':14,'nino':15,
+    'dittatore':16,'willie':17,'suicide':18,'resurrection':19,
+    'aquile':20,'cane':21,'lapiccola':22,'grazia':23,'ariosto_film':24,
+    'finoallultimo':25,'procuratori':26,'scuola':27,'condominio':28,
+    'godard':29,'terzo':30,'osoppo_film':31
+  };
   var entries=Object.values(filmIndex);
   if(S.stasera){
     entries.sort(function(a,b){
@@ -239,7 +267,10 @@ function renderFilmGrid(filmIndex,el){
       return ta.localeCompare(tb);
     });
   } else {
-    entries.sort(function(a,b){return a.r.film.localeCompare(b.r.film);});
+    entries.sort(function(a,b){
+      var pa=POPULARITY[a.r.filmId]||99, pb=POPULARITY[b.r.filmId]||99;
+      return pa-pb;
+    });
   }
 
   var html='<div class="film-grid">';
@@ -387,7 +418,7 @@ function openModal(filmId,filmIndex){
     }).join('');
     var cinObj=cinemaById[cv.cinemaId]||{};
     var hasOV=cv.slots.some(function(s){return s.lang==='ov';});
-    var ovMark=hasOV?'<span style="font-size:10px;color:var(--ov-t);font-weight:500;margin-left:5px">v.o.</span>':'';
+    var ovMark=hasOV?'<span style="font-size:11px;color:var(--ov-t);font-weight:600;background:var(--ov-bg);padding:1px 6px;border-radius:3px;margin-left:6px">v.o.</span>':'';
     var buyBtn=cinObj.bookingUrl
       ?'<a class="btn-buy" href="'+cinObj.bookingUrl+'" target="_blank" rel="noopener">Acquista &#8599;</a>'
       :'';
@@ -449,7 +480,7 @@ function clearSearch(){
   render();
 }
 function resetAllFilters(){
-  S.area='Tutte'; S.genres.clear(); S.ov=false; S.stasera=false; S.q='';
+  S.area='Tutte'; S.genres.clear(); S.ov=false; S.stasera=false; S.q=''; S.cinema='Tutti';
   document.getElementById('searchInput').value='';
   document.getElementById('searchClear').style.display='none';
   var oc=document.getElementById('ovChip');
