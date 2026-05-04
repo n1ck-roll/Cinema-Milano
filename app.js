@@ -474,7 +474,7 @@ fetch('data.json')
       f.poster = null; // will be filled by TMDB
     });
     // Build genre list from loaded films
-    ALL_GENRES = [...new Set(FILMS.map(function(f){return f.genre;}))].sort();
+    ALL_GENRES = Array.from(new Set(FILMS.map(function(f){return f.genre;}))).sort();
 
     // Map weekday numbers (0=Sun..6=Sat) to day offsets from today
     function weekdayToOffset(wd){
