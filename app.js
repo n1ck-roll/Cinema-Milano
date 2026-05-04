@@ -10,33 +10,13 @@ var ALL_RECORDS = [];
 var posterCache = {}, ratingCache = {};
 var TMDB_KEY = '';
 
-var cinemaById={}, filmById={};
-CINEMAS.forEach(function(c){cinemaById[c.id]=c;});
-FILMS.forEach(function(f){filmById[f.id]=f;});
-
-var ALL_RECORDS=[];
-SHOWTIMES.forEach(function(s){
-  var cinema=cinemaById[s.c], film=filmById[s.f];
-  if(!cinema||!film) return;
-  s.days.forEach(function(wd){
-    var off=weekdayToOffset(wd);
-    ALL_RECORDS.push({
-      off:off, weekday:wd,
-      cinemaId:cinema.id, cinema:cinema.name, area:cinema.area, address:cinema.address,
-      bookingUrl:cinema.bookingUrl||'',
-      filmId:film.id, film:film.title, genre:film.genre, dur:film.dur,
-      dir:film.dir, cast:film.cast, synopsis:film.synopsis, emoji:film.emoji,
-      tmdbId:film.tmdbId, lang:s.lang||'it', times:s.t.slice()
-    });
-  });
-});
-
+// State — initialised after data.json loads
 var S={range:'today', area:'Tutte', genres:new Set(), tab:'film', q:'', ov:false, stasera:false};
 var AREA_ORDER=['Centro / Duomo','Brera / Garibaldi','Navigli / Porta Genova',
   'Porta Venezia / Citta Studi','CityLife / Fiera','Ovest / Corsico',
   'Est / Lambrate','Bicocca / Bovisa','Altre zone'];
 var ALL_AREAS=['Tutte'].concat(AREA_ORDER);
-var ALL_GENRES=[...new Set(FILMS.map(function(f){return f.genre;}))].sort();
+var ALL_GENRES=[];
 
 var posterCache={}, ratingCache={};
 function fetchPoster(filmId, tmdbId){
@@ -479,10 +459,6 @@ function resetAllFilters(){
   buildFilters(); render();
 }
 
-buildFilters();
-buildDayStrip();
-render();
-
 // ── Bootstrap: load data then init ──
 fetch('data.json')
   .then(function(r){ return r.json(); })
@@ -497,6 +473,8 @@ fetch('data.json')
       filmById[f.id] = f;
       f.poster = null; // will be filled by TMDB
     });
+    // Build genre list from loaded films
+    ALL_GENRES = [...new Set(FILMS.map(function(f){return f.genre;}))].sort();
 
     // Map weekday numbers (0=Sun..6=Sat) to day offsets from today
     function weekdayToOffset(wd){
